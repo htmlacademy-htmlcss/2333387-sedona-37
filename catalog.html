@@ -66,10 +66,27 @@
       <p>
         Гостиницы
       </p>
-      <p>
+      <div class="Infrastructure">
+      <h3>
+        Инфраструктура:
+      </h3>
+        <input type="checkbox" id="pool">
+        <label for="pool">
+          Бассейн
+        </label>
+        <input type="checkbox" id="parcking">
+        <label for="parcking">
+          Парковка
+        </label>
+        <input type="checkbox" id="Wi-Fi">
+        <label for="Wi-Fi">
+          Wi-Fi
+        </label>
+      </div>
+      <div class="housing">
+      <h3>
         Тип жилья:
-      </p>
-
+      </h3>
         <input type="radio" id="hotel" name="housing">
         <lable for="hotel">
           Гостиница
@@ -82,8 +99,30 @@
         <lable for="apartments">
           Апартаменты
         </lable>
-
+      </div>
+      <div class="price-filter">
+        <h3>
+          Стоимость, ₽:
+        </h3>
+        <div class="slider">
+          <label class="price-filter-label">
+            <input type="number" min="0" max="9000" placeholder="0" calss="price-filter-input">
+            <span class="price-filter-text">от</span>
+          </label>
+          <label class="price-filter-label">
+            <input type="number" min="0" max="9000" placeholder="9000" calss="price-filter-input">
+            <span class="price-filter-text">до</span>
+          </label>
+        </div>
+      </div>
+      <a class="button-price" href="#">
+        Применить
+      </a>
+      <a class="button-price" href="#">
+        Сбросить
+      </a>
     </section>
+    
     </main>
     <footer class="main-fotter">
       <section class="form">
