@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+  </head>
+  <body>
+    <heder class="page-header">
+      <nav class="nav-main">
+        <span class="visually-hidden">
+          <a class="logo-link" href="index.html" target="_blank">
+          <img class="logo" src="img\logo.svg" alt="Логотип Седона">
+        </a>
+      </span>
+    <ul class="nav-list">
+      <li class="nav-item">
+        <a calss="nav-link" href="#">
+          Главная
+        </a>
+      </li>
+      <li class="nav-item">
+        <a calss="nav-link" href="#">
+          О Cедоне
+        </a>
+      </li>
+      <li class="nav-item">
+        <a calss="nav-link" href="#">
+          Гостиницы
+        </a>
+      </li>
+    </ul>
+    <ul class="nav-user">
+      <li class="user-item">
+        <img class="loupe" src="img\loupe.svg" alt="Лупа">
+        <span class="visually-hidden">
+        <a calss="nav-link" href="#">
+          Поиск
+        </a>
+      </span>
+      </li>
+      <li class="user-item">
+        <img class="loupe" src="img\Избранное.svg" alt="Сердце">
+        <span class="visually-hidden">
+        <a calss="nav-link" href="#">
+          Избранное
+        </a>
+      </span>
+      </li>
+      <li class="user-item">
+        <a class="button" href="catalog.html">
+          Хочу сюда!
+        </a>
+      </li>
+    </ul>
+  </nav>
+    </heder>
+    <main>
+    <section class="price">
+      <form action="https://echo.htmlacademy.ru/" method="get">
+      <h1>
+        Гостиницы Седоны
+      </h1>
+      <a class="house-min-link" href="index.html" target="_blank">
+        <img class="house-min" src="img\house_min.svg" alt="Дом">
+      </a>
+      <img class="right" src="img\стрелка.svg" alt="Стрелка вправо">
+      <p>
+        Гостиницы
+      </p>
+      <div class="Infrastructure">
+      <h3>
+        Инфраструктура:
+      </h3>
+        <input type="checkbox" id="pool">
+        <label for="pool">
+          Бассейн
+        </label>
+        <input type="checkbox" id="parcking">
+        <label for="parcking">
+          Парковка
+        </label>
+        <input type="checkbox" id="Wi-Fi">
+        <label for="Wi-Fi">
+          Wi-Fi
+        </label>
+      </div>
+      <div class="housing">
+      <h3>
+        Тип жилья:
+      </h3>
+        <input type="radio" id="hotel" name="housing">
+        <lable for="hotel">
+          Гостиница
+        </lable>
+        <input type="radio" id="motel" name="housing">
+        <lable for="motel">
+          Мотель
+        </lable>
+        <input type="radio" id="apartments" name="housing">
+        <lable for="apartments">
+          Апартаменты
+        </lable>
+      </div>
+      <div class="price-filter">
+        <h3>
+          Стоимость, ₽:
+        </h3>
+        <div class="slider">
+          <label class="price-filter-label">
+            <input type="number" min="0" max="9000" placeholder="0" calss="price-filter-input">
+            <span class="price-filter-text">от</span>
+          </label>
+          <label class="price-filter-label">
+            <input type="number" min="0" max="9000" placeholder="9000" calss="price-filter-input">
+            <span class="price-filter-text">до</span>
+          </label>
+        </div>
+      </div>
+      <div class="Apply">
+        <input type="submit" value="Применить">
+        <input type="reset" value="Сбросить">
+    </div>
+  </form>
+    </section>
+    <section class="galley">
+    <h2>
+      Найдено гостиниц: 38
+    </h2>
+    <div class="select">
+      <label for="price">
+        Сначала дешевые
+      </label>
+      <select name="price" id="price">
+        <option value="price-1">
+          Сначала дешевые
+        </option>
+      </select>
+    </div>
+    <ul class="comande-list">
+      <li class="comande-item">
+        <img class="comande-item-img" src="img\блоки.svg" alt="блоки">
+      </li>
+      <li class="comande-item">
+        <img class="comande-item-img" src="img\панель.svg" alt="панель">
+      </li>
+      <li class="comande-item">
+        <img class="comande-item-img" src="img\бургер.svg" alt="список">
+      </li>
+    </ul>
+    <ul class="gallery-list">
+      <li class="gallery-item">
+        <h3>
+          Amara Resort & Spa
+        </h3>
+        <p class="place">
+          Гостиница
+        </p>
+        <img class="gallery-img" src="img\gallery-item-1.jpg" alt="Вид на звезды, сквозь ущелье">
+        <p class="price-place">
+          От 4000 ₽
+        </p>
+        <div class="buttom-inf">
+          <a href="#">
+            подробнее
+          </a>
+        </div>
+        <div class="buttom-like">
+          <a href="#">
+            в избранное
+          </a>
+        </div>
+        <p class="rate">
+          Рейтинг: 8,5
+        </p>
+        <div class="star-list">
+        <img class="star" src="img\star.svg" alt="звезда">
+        <img class="star" src="img\star.svg" alt="звезда">
+        <img class="star" src="img\star.svg" alt="звезда">
+        <img class="star" src="img\star.svg" alt="звезда">
+      </div>
+      </li>
+      <li class="gallery-item">
+        <h3>
+          Villas at Poco Diablo
+        </h3>
+        <p class="place">
+          Гостиница
+        </p>
+        <img class="gallery-img" src="img\gallery-item-2.jpg" alt="Вид на звезды, сквозь ущелье">
+        <p class="price-place">
+          От 5000 ₽
+        </p>
+        <div class="buttom-inf">
+          <a href="#">
+            подробнее
+          </a>
+        </div>
+        <div class="buttom-like">
+          <a href="#">
+            в избранное
+          </a>
+        </div>
+        <p class="rate">
+          Рейтинг: 9,2
+        </p>
+        <div class="star-list">
+        <img class="star" src="img\star.svg" alt="звезда">
+        <img class="star" src="img\star.svg" alt="звезда">
+        <img class="star" src="img\star.svg" alt="звезда">
+        <img class="star" src="img\star.svg" alt="звезда">
+      </div>
+      </li>
+      <li class="gallery-item">
+        <h3>
+          Desert Quail Inn
+        </h3>
+        <p class="place">
+          Гостиница
+        </p>
+        <img class="gallery-img" src="img\gallery-item-3.jpg" alt="Вид на звезды, сквозь ущелье">
+        <p class="price-place">
+          От 2500 ₽
+        </p>
+        <div class="buttom-inf">
+          <a href="#">
+            подробнее
+          </a>
+        </div>
+        <div class="buttom-like">
+          <a href="#">
+            в избранное
+          </a>
+        </div>
+        <p class="rate">
+          Рейтинг: 6,9
+        </p>
+        <div class="star-list">
+        <img class="star" src="img\star.svg" alt="звезда">
+        <img class="star" src="img\star.svg" alt="звезда">
+        <img class="star" src="img\star.svg" alt="звезда">
+      </div>
+      </li>
+      <li class="gallery-item">
+        <h3>
+          GreenTree Inn
+        </h3>
+        <p class="place">
+          Гостиница
+        </p>
+        <img class="gallery-img" src="img\gallery-item-4.jpg" alt="Вид на звезды, сквозь ущелье">
+        <p class="price-place">
+          От 1500 ₽
+        </p>
+        <div class="buttom-inf">
+          <a href="#">
+            подробнее
+          </a>
+        </div>
+        <div class="buttom-like">
+          <a href="#">
+            в избранное
+          </a>
+        </div>
+        <p class="rate">
+          Рейтинг: 5,0
+        </p>
+        <div class="star-list">
+        <img class="star" src="img\star.svg" alt="звезда">
+        <img class="star" src="img\star.svg" alt="звезда">
+      </div>
+      </li>
+    </ul>
+    </section>
+    </main>
+    <footer class="main-fotter">
+      <section class="form">
+        <h1>Подпишитесь на рассылку</h1>
+        <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <form action="https://echo.htmlacademy.ru/" method="get">
+        <lable>
+          <input type="text" name="email" placeholder="Ваш e-mail">
+          <input type="submit" value="Подписаться">
+        </lable>
+        <ul class="networks-list">
+          <li class="networks-item">
+          <a class="vk-link" href="#"><img class="vk" src="img\vk.svg" alt="Ссылка на Вк"></a>
+          </li>
+          <li class="networks-item">
+          <a class="telegram-link" href="#"><img class="telegram" src="img\telegram.svg" alt="Ссылка на telegram"></a>
+          </li>
+          <li class="networks-item">
+          <a class="youtube-link" href="#"><img class="youtube" src="img\youtube.svg" alt="Ссылка на youtube"></a>
+          </li>
+        </ul>
+        <a class="contacts-phone" href="tel:88128121212">
+          +7 (812) 812-12-12
+        </a>
+        <a class="logo-html" href="#">
+        <img class="logo-html-img" src="img\Logo_HTML_academy.svg" alt="Логотип HTML academy">
+        </a>
+        </form>
+      </section>
+      </footer>
