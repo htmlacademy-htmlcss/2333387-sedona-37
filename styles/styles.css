@@ -1,3 +1,49 @@
+@font-face {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-style: normal;
+  src: url("roboto.woff2") format("woff2"),
+      url("roboto.woff") format("woff");
+}
+@font-face {
+  font-family: "PT Sans"; /* указали насыщенность прямо в семействе */
+  font-weight: 700;
+  font-style: normal;
+  src: url("robotobold.woff2") format("woff2"),
+      url("robotobold.woff") format("woff");
+}
+
 body {
-  
+  font-family: "PT Sans", Arial, sans-serif;
+  color: black;
+
+}
+
+.header {
+  color: black;
+  background-color:white;
+
+
+}
+
+.nav_link {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.lead {
+  background-image: url("../images/background_img.jpg");
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 485px;
+}
+
+.lead_description_image{
+  display: flex;
+  justify-content: center;
 }
