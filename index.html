@@ -1,225 +1,241 @@
 <!DOCTYPE html>
 <html lang="ru">
+
   <head>
     <link rel="stylesheet" type="text/css" href="styles\styles.css">
-    <meta charset="utf-8">
+    <meta charset="utf_8">
     <title>HTML Academy: Седона</title>
   </head>
+
   <body>
-    <header class="header">
-      <a href="#" class="header_logo">
-      <img class="logo" src="images\logo.svg" alt="Логотип Седона">
-    </a>
-      <nav class="nav_main">
-    <ul class="nav_list">
-      <li class="nav_item">
-        <a calss="nav_link" href="#">
-          Главная
+    <div class="page_container">
+      <header class="header">
+        <a href="index.html" class="header_logo">
+          <img class="logo" src="images\logo.svg" alt="Логотип Седона">
         </a>
-      </li>
-      <li class="nav_item">
-        <a calss="nav_link" href="#">
-          О Cедоне
-        </a>
-      </li>
-      <li class="nav_item">
-        <a calss="nav_link" href="catalog.html">
-          Гостиницы
-        </a>
-      </li>
-    </ul>
-  </nav>
-  <ul class="user">
-    <li class="user_item">
-      <a calss="user_item_link" href="#">
-        <span class="visually_hidden">
-        Поиск
-      </span>
-      </a>
-    </li>
-    <li class="user-item">
-      <a calss="nav_link" href="#">
-        <span class="visually-hidden">
-        Избранное
-      </span>
-      </a>
-    </li>
-  </ul>
-  <button class="header_button">
-    Хочу сюда!
-  </button>
-    </header>
-    <main>
-      <h1 class="visually_hidden">
-        Неофоициальный сайт города Седона
-      </h1>
-      <section class="lead">
-        <h2 class="visually_hidden">
-          Приглашение посетить город
-        </h2>
-        <img class="lead_description_image" src="images\Welcome.svg" alt="Добро пожаловать в великолепную Седону, потому что Гранд-Каньон отстой!">
-      </section>
-    <section class="info_section">
-      <p class="visually-hidden">
-        Преимущества
-      </p>
-    <h2>Седона — небольшой городок в Аризоне,
-      заслуживающий большего!</h2>
-      <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
-    </section>
-    <section class="reasons">
-      <ul class="reasons_list">
-        <li class="reasons_item">
-          <h2>Настоящий городок</h2>
-          <p class="reasons_item_description">
-            Седона — не аттракцион для туристов, там течёт своя жизнь
-          </p>
-        </li>
-        <li class="reasons_item">
-          <h2>Небольшая
-            площадь</h2>
-            <p>Все достопримечательности находятся очень близко</p>
-            <img class="reason_img" src="images\resaon_img_1.jpg" width="800px" height="385px" alt="Город Седона">
-        </li>
-        <li class="reasons_item">
-        <h2>Красивая
-          дорога</h2>
-          <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-        </li>
-        <li class="reasons_item">
-        <h2>Мало
-          туристов</h2>
-          <p>Большинство едет в Гранд Каньон и толпится там</p>
-        </li>
-        <li class="reasons_item">
-          <h2>Там есть
-            мост дьявола</h2>
-            <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-            <img class="reason_img" src="images\reason_img_2.jpg" width="800px" height="385px" alt="Скалистая местность">
-        </li>
-      </ul>
-    </section>
-    <section class="info_section">
-      <h1>Приезжайте в Седону отдохнуть в комфорте и уюте!</h1>
-        <p>Опытный персонал и качественное обслуживание!</p>
-      </section>
-      <section class="service_section">
-        <h2 class="visually_hidden">
-          Услуги
-        </h2>
-        <ul class="service_list">
-          <li class="service_item">
-          <h2>Жильё</h2>
-          <p>Рекомендуем пожить в настоящем мотеле,
-            всё как в кино!</p>
+        <nav class="nav_main">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a class="nav_link" href="index.html">
+                Главная
+              </a>
+            </li>
+            <li class="nav_item">
+              <a class="nav_link" href="#">
+                О Cедоне
+              </a>
+            </li>
+            <li class="nav_item">
+              <a class="nav_link" href="catalog.html">
+                Гостиницы
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="user_list">
+          <li class="user_item">
+            <a class="user_item_link" href="#">
+              <span class="visually_hidden">
+                Поиск
+              </span>
+            </a>
           </li>
-          <li class="service_item">
-          <h2>Еда</h2>
-          <p>Всегда заказывайте
-            топовый фирменный бургер, вы не разочаруетесь!</p>
+          <li class="user_item">
+            <a class="user_item_link" href="#">
+              <span class="visually_hidden">
+                Избранное
+              </span>
+              <span class="user_item_like">
+                12
+              </span>
+            </a>
           </li>
-          <li class="service_item">
-          <h2>Сувениры</h2>
-          <p>Не только китайского,
-            но и настоящего местного производства!</p>
+          <li class="user_item">
+            <a href="#" class="button_link user_item_link">
+            Хочу сюда!
+          </a>
           </li>
         </ul>
+
+      </header>
+      <main class="index_main">
+        <h1 class="visually_hidden">
+          Неофоициальный сайт города Седона
+        </h1>
+        <section class="lead">
+          <h2 class="visually_hidden">
+            Приглашение посетить город
+          </h2>
+          <img class="lead_description_image" src="images\Welcome.svg"
+            alt="Добро пожаловать в великолепную Седону, потому что Гранд_Каньон отстой!">
+        </section>
+        <section class="info_section">
+          <p class="visually_hidden">
+            Преимущества
+          </p>
+          <p class="about_title">СЕДОНА—НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</p>
+          <p class="reasons_titile">Рассмотрим причины, по которым Седона круче, чем Гранд Каньон!</p>
+        </section>
+        <section class="reasons">
+          <ul class="reasons_list">
+              <li class="reasons_item">
+                <h2 class="reasons_item_title">Настоящий городок</h2>
+                <p class="reasons_item_description">
+                  Седона — не аттракцион для туристов, там течёт своя жизнь
+                </p>
+                <img class="reason_img" src="images\resaon_img_1.jpg" width="800px" height="385px" alt="Город Седона">
+              </li>
+            <li class="reasons_item">
+              <h2 class="reasons_item_title">Небольшая
+                площадь</h2>
+              <p class="reasons_item_description">Все достопримечательности находятся очень близко</p>
+            </li>
+            <li class="reasons_item">
+              <h2 class="reasons_item_title">Красивая
+                дорога</h2>
+              <p class="reasons_item_description">Ехать в Седону из Лас_Вегаса совсем не скучно!</p>
+            </li>
+            <li class="reasons_item">
+              <h2 class="reasons_item_title">Мало
+                туристов</h2>
+              <p class="reasons_item_description">Большинство едет в Гранд Каньон и толпится там</p>
+            </li>
+            <li class="reasons_item">
+              <h2 class="reasons_item_title">Там есть
+                мост дьявола</h2>
+              <p class="reasons_item_description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+              <img class="reason_img" src="images\reason_img_2.jpg" width="800px" height="385px"
+                alt="Скалистая местность">
+            </li>
+          </ul>
+        </section>
+        <section class="info_section">
+          <p class="about_title">Приезжайте в Седону отдохнуть в комфорте и уюте!</p>
+          <p class="reasons_titile">Опытный персонал и качественное обслуживание!</p>
+        </section>
+        <section class="service_section">
+          <h2 class="visually_hidden">
+            Услуги
+          </h2>
+          <ul class="service_list">
+            <li class="service_item">
+              <div class="service_icon_1"></div>
+              <h2 class="service_item_title">Жильё</h2>
+              <p class="service_item_description">Рекомендуем пожить в настоящем мотеле,
+                всё как в кино!</p>
+            </li>
+            <li class="service_item">
+              <div class="service_icon_2"></div>
+              <h2 class="service_item_title">Еда</h2>
+              <p class="service_item_description">Всегда заказывайте
+                топовый фирменный бургер, вы не разочаруетесь!</p>
+            </li>
+            <li class="service_item">
+              <div class="service_icon_3"></div>
+              <h2 class="service_item_title">Сувениры</h2>
+              <p class="service_item_description">Не только китайского,
+                но и настоящего местного производства!</p>
+            </li>
+          </ul>
+        </section>
+        <section class="search_section">
+          <h2 class="visually_hidden">
+            Поиск гостиницы
+          </h2>
+          <h3 class="search_section_title">Заинтересовались?</h3>
+          <p class="search_section_description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+          <button class="search_button">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
+        </section>
+      </main>
+      <footer class="footer">
+        <section class="form">
+          <h2 class="from_title">Подпишитесь на рассылку</h2>
+          <p class="from_description">Только полезная информация и никакого спама, честное бойскаутское!</p>
+          <form action="https://echo.htmlacademy.ru/" method="get">
+            <label>
+              <input class="form_email" type="text" name="email" placeholder="Ваш e_mail">
+            </label>
+            <label>
+              <input class="form_button" type="submit" value="Подписаться">
+            </label>
+        </section>
+        <section class="footer_contacts">
+        <ul class="footer_nav">
+          <li class="footer_nav_item_1">
+            <a class="footer_nav_link" href="https://vk.com/htmlacademy" target="_blank">
+              <span class="visually_hidden">
+                Вконтакте
+              </span>
+            </a>
+          </li>
+          <li class="footer_nav_item_2">
+            <a class="footer_nav_link" href="https://t.me/htmlacademy" target="_blank">
+              <span class="visually_hidden">
+                Telegram
+              </span>
+            </a>
+          </li>
+          <li class="footer_nav_item_3">
+            <a class="footer_nav_link" href="https://www.youtube.com/user/htmlacademyru" target="_blank">
+              <span class="visually_hidden">
+                YouTube
+              </span>
+            </a>
+          </li>
+        </ul>
+        <a class="contacts_phone" href="tel:88128121212" target="_blank">
+          +7 (812) 812-12-12
+        </a>
+        <a class="footer_logo" href="https://htmlacademy.ru/">
+          <img class="footer_logo_img" src="images\Logo_HTML_academy.svg" alt="Логотип HTML academy">
+        </a>
+        </form>
       </section>
-      <section class="search_section">
-        <h2 class="visually_hidden">
-          Поиск гостиницы
-        </h2>
-        <p>Заинтересовались?</p>
-        <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <button class="search_button">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
-      </section>
-    </main>
-    <footer class="footer">
-      <section class="form">
-      <h2>Подпишитесь на рассылку</h2>
-      <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
-      <form action="https://echo.htmlacademy.ru/" method="get">
-      <label>
-        <input type="text" name="email" placeholder="Ваш e-mail">
-      </label>
-      <label>
-        <input type="submit" value="Подписаться">
-      </label>
-    </section>
-      <ul class="footer_nav">
-        <li class="footer_nav_item">
-        <a class="footer_nav_link" href="https://vk.com/htmlacademy" target="_blank">
-          <span class="visually_hidden">
-            Вконтакте
-          </span>
-        </a>
-        </li>
-        <li class="footer_nav_item">
-        <a class="footer_nav_link" href="https://t.me/htmlacademy" target="_blank">
-          <span class="visually_hidden">
-            Telegram
-          </span>
-        </a>
-        </li>
-        <li class="footer_nav_item">
-        <a class="footer_nav_link" href="https://www.youtube.com/user/htmlacademyru" target="_blank">
-          <span class="visually_hidden">
-            YouTube
-          </span>
-        </a>
-        </li>
-      </ul>
-      <a class="contacts-phone" href="tel:88128121212" target="_blank">
-        +7 (812) 812-12-12
-      </a>
-      <a class="footer_logo" href="https://htmlacademy.ru/">
-      <img class="footer_logo_img" src="images\Logo_HTML_academy.svg" alt="Логотип HTML academy">
-      </a>
-      </form>
-    </footer>
-    <div class="modal">
-    <div class="modal_wrapper">
-      <button class="close_buttom">
-        <span class="visually_hidden">
-        Закрыть модальное окно
-        </span>
-      </button>
-      <h2>
-        Поиск гостиницы в Седоне
-      </h2>
-      <form action="https://echo.htmlacademy.ru/" class="modal_search" method="post">
-      <label for="arrival_date">
-        Дата заезда:
-      </label>
-      <input type="text" class="arrival_text" name="arrival_date" id="arrival_date" value="27 апреля 2020">
-      <button class="calendar" type="button">
-        <span class="visually_hidden">
-          Календарь
-        </span>
-      </button>
-      <p class="message">
-        Мы не можем отправить вас в прошлое.
-      </p>
-      <label for="exit_date">
-        Дата выезда:
-      </label>
-      <input type="text" class="exit_text" name="exit_date" id="exit_date" value="1 сентября 2023">
-      <button class="calendar" type="button">
-        <span class="visually_hidden">
-          Календарь
-        </span>
-      </button>
-      <p class="message">
-        На эти даты есть свободные номера. Пока есть.
-      </p>
+      </footer>
     </div>
+    <div class="modal">
+      <div class="modal_wrapper">
+        <button class="close_buttom">
+          <span class="visually_hidden">
+            Закрыть модальное окно
+          </span>
+        </button>
+        <h2 class="modal_title">
+          Поиск гостиницы в Седоне
+        </h2>
+        <form action="https://echo.htmlacademy.ru/" class="modal_search" method="post">
+          <label for="arrival_date">
+            Дата заезда:
+          </label>
+          <input type="text" class="arrival_text" name="arrival_date" id="arrival_date" value="27 апреля 2020">
+          <button class="calendar" type="button">
+            <span class="visually_hidden">
+              Календарь
+            </span>
+          </button>
+          <p class="message">
+            Мы не можем отправить вас в прошлое.
+          </p>
+          <label for="exit_date">
+            Дата выезда:
+          </label>
+          <input type="text" class="exit_text" name="exit_date" id="exit_date" value="1 сентября 2023">
+          <button class="calendar" type="button">
+            <span class="visually_hidden">
+              Календарь
+            </span>
+          </button>
+          <p class="message">
+            На эти даты есть свободные номера. Пока есть.
+          </p>
+      </div>
       <div class="member">
         <label for="adult_value">
           Взрослые:
         </label>
         <button class="minus" type="button">
           <span class="visually_hidden">
-            -
+            _
           </span>
         </button>
         <input type="text" class="adult_value" type="number" id="adult_value" name="adult_value" value="2">
@@ -233,12 +249,13 @@
         </label>
         <span class="information">
           <p>
-            Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.
+            Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются
+            бесплатно.
           </p>
         </span>
         <button class="minus" type="button">
           <span class="visually_hidden">
-            -
+            _
           </span>
         </button>
         <input type="text" class="child_value" type="number" id="child_value" name="child_value" value="2">
@@ -254,4 +271,5 @@
       </form>
     </div>
   </body>
+
 </html>
