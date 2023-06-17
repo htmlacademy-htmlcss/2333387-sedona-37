@@ -8,6 +8,7 @@
   </head>
 
   <body>
+    <div class="page_container">
     <header class="header">
       <a href="index.html" class="header_logo">
         <img class="logo" src="images\logo.svg" alt="Логотип Седона">
@@ -15,55 +16,46 @@
       <nav class="nav_main">
         <ul class="nav_list">
           <li class="nav_item">
-            <a calss="nav_link" href="index.html">
+            <a class="nav_link" href="index.html">
               Главная
             </a>
           </li>
           <li class="nav_item">
-            <a calss="nav_link" href="#">
+            <a class="nav_link" href="#">
               О Cедоне
             </a>
           </li>
           <li class="nav_item">
-            <a calss="nav_link" href="catalog.html">
+            <a class="nav_link" href="catalog.html">
               Гостиницы
             </a>
           </li>
         </ul>
       </nav>
-      <ul class="user">
+      <ul class="user_list">
         <li class="user_item">
-          <a calss="user_item_link" href="#">
+          <a class="user_item_link" href="#">
             <span class="visually_hidden">
               Поиск
             </span>
           </a>
         </li>
         <li class="user_item">
-          <a calss="nav_link" href="#">
+          <a class="user_item_link" href="#">
             <span class="visually_hidden">
               Избранное
             </span>
+            <span class="user_item_like">
+              12
+            </span>
           </a>
         </li>
+        <li class="user_item">
+          <a href="#" class="button_link user_item_link">
+          Хочу сюда!
+        </a>
+        </li>
       </ul>
-      <button class="header_button">
-        Хочу сюда!
-      </button>
-    </header>
-    <main class="catalog_main">
-      <header class="catalog_main_header">
-        <h1 class="catalog_main_title">Гостиницы Седоны</h1>
-        <ul class="breadcrumbs">
-          <li class="breadcrumbs_item">
-            <a class="breadcrumbs_link" href="index.html">
-              <span class="visually_hidden">Главная</span>
-            </a>
-          </li>
-          <li class="breadcrumbs_item">
-            <a class="breadcrumbs_item">Гостиницы</a>
-          </li>
-        </ul>
       </header>
       <section class="hotel_filter">
         <h2 class="visually_hidden">Фильтр каталога гостиниц</h2>
@@ -134,7 +126,7 @@
         </form>
       </section>
       <section class="found_hotels">
-        <p class="found_hotels__title">
+        <p class="found_hotels_title">
           Найдено гостиниц: 38
         </p>
         <select class="found_hotels_sort" aria_label="Сортировка">
@@ -284,4 +276,6 @@
       </a>
       </form>
     </footer>
+  </div>
+    </body>
 </html>
