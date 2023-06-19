@@ -75,6 +75,7 @@ body {
 }
 
 .button_link {
+  padding: 8px 34px;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -84,6 +85,9 @@ body {
   background-color: #756157;
   color: white;
   text-decoration: none;
+  border-radius: 4px;
+  border: none;
+
 }
 
 .user_item_like {
@@ -387,15 +391,230 @@ text-decoration: none;
 }
 
 .close_buttom {
-  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 543px;
+  padding: 18px 18px 15px 18px;
   font-family: inherit;
   background-color: #f2f2f2;
   border: none;
+  border-radius: 50%;
 }
+
 
 .modal_wrapper {
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
-  
+
+}
+
+/* Фильтр католога */
+
+.catalog_main_header {
+  box-sizing: border-box;
+  background-image: url(../images/filter-background.jpg);
+  background-repeat: no-repeat;
+  background-color: #422110;
+  color: #ffffff;
+  padding: 35px 70px 70px 70px;
+  background-position: center top;
+  background-size: cover;
+}
+
+.catalog_main_title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.filter_list {
+  list-style: none;
+}
+
+.breadcrumbs_item {
+  font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+}
+
+.filter_title {
+  font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-transform: capitalize;
+}
+
+.control {
+  font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+}
+
+.price_input {
+  width: 106px;
+  padding: 12px 0 12px 20px;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  border: none;
+}
+
+.filter_apply_button {
+  font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #ffffff;
+background: #82B3D3;
+padding: 8px 50px;
+text-align: center;
+text-transform: uppercase;
+border: none;
+    border-radius: 4px;
+}
+
+.filter_reset_button {
+  margin-top: 32px;
+  font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #ffffff;
+padding: 8px 50px;
+text-align: center;
+text-transform: uppercase;
+background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-radius: 4px;
+}
+
+/* Каталог */
+
+.found_hotels {
+  padding: 50px 70px 60px;
+}
+
+.found_hotels_title {
+  font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-transform: uppercase;
+}
+
+.found_hotels_filter {
+  padding: 14px 0 14px 20px;
+  font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #333333;
+border: 2px solid #E5E5E5;
+border-radius: 4px;
+}
+
+.hotels_card_list {
+  list-style: none;
+}
+
+.hotels_card_item {
+  padding: 20px;
+  width: 340px;
+  border: 1px solid #E6E6E6;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.hotels_card_link {
+  font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+color: #000000;
+text-decoration: none;
+}
+
+.hotels_card_description {
+  width: 140px;
+  font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #333333;
+}
+
+.hotels_card_button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  background: #756157;
+  border-radius: 4px;
+  border: none;
+  color: #ffffff;
+  padding: 8px 26px;
+}
+
+.favorite_button {
+  background-color:#82B3D3;
+}
+
+.favorite_button_active {
+  background: #7DB54F;
+}
+
+/* !Спросить про рейтинг! */
+
+.hotels_card_rating {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  padding: 8px 22px;
+  background: #F2F2F2;
+  border: none;
+  border-radius: 4px;
+}
+
+.card_star_list {
+  list-style: none;
+}
+
+.card_star_item {
+  margin: 0;
+  height: 17px;
+  width: 18px;
+  background: url("../images/star.svg") space 0 0;
+}
+
+/* Pagnation */
+
+.hotels_pagination {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hotels_pagination_item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.pagination_link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  align-items: center;
+  padding: 12px 25px 13px 24px;
+  color: #ffffff;
+  background: #82B3D3;
+  border-radius: 4px;
+}
+
+.pagination_link_current {
+  color: #000000;
+  background: #F2F2F2;
 }
