@@ -153,7 +153,7 @@
           <p class="from_description">Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form action="https://echo.htmlacademy.ru/" method="get">
             <label>
-              <input class="form_email" type="text" name="email" placeholder="Ваш e_mail">
+              <input class="form_email" type="text" name="email" placeholder="Ваш e-mail">
             </label>
             <label>
               <input class="form_button" type="submit" value="Подписаться">
@@ -204,22 +204,22 @@
           Поиск гостиницы в Седоне
         </h2>
         <form action="https://echo.htmlacademy.ru/" class="modal_search" method="post">
-          <label for="arrival_date">
+          <label for="arrival_date" class="modal_description">
             Дата заезда:
           </label>
-          <input type="text" class="arrival_text" name="arrival_date" id="arrival_date" value="27 апреля 2020">
+          <input type="text" class="modal_input" name="arrival_date" id="arrival_date" value="27 апреля 2020">
           <button class="calendar" type="button">
             <span class="visually_hidden">
               Календарь
             </span>
           </button>
-          <p class="message">
+          <p class="message_error">
             Мы не можем отправить вас в прошлое.
           </p>
-          <label for="exit_date">
+          <label for="exit_date" class="modal_description">
             Дата выезда:
           </label>
-          <input type="text" class="exit_text" name="exit_date" id="exit_date" value="1 сентября 2023">
+          <input type="text" class="modal_input" name="exit_date" id="exit_date" value="1 сентября 2023">
           <button class="calendar" type="button">
             <span class="visually_hidden">
               Календарь
@@ -230,7 +230,7 @@
           </p>
       </div>
       <div class="member">
-        <label for="adult_value">
+        <label for="modal_title" class="modal_description">
           Взрослые:
         </label>
         <button class="minus" type="button">
@@ -238,13 +238,13 @@
             _
           </span>
         </button>
-        <input type="text" class="adult_value" type="number" id="adult_value" name="adult_value" value="2">
+        <input type="text" class="modal_space" type="number" id="adult_value" name="adult_value" value="2">
         <button class="plus" type="button">
           <span class="visually_hidden">
             +
           </span>
         </button>
-        <label for="child_value">
+        <label for="child_value" class="modal_description">
           Дети:
         </label>
         <span class="information">
@@ -258,7 +258,7 @@
             _
           </span>
         </button>
-        <input type="text" class="child_value" type="number" id="child_value" name="child_value" value="2">
+        <input type="text" class="modal_space" type="number" id="child_value" name="child_value" value="2">
         <button class="plus" type="button">
           <span class="visually_hidden">
             +
